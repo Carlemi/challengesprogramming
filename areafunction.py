@@ -22,4 +22,4 @@ def areapoligono(poligono):
 
     return poligono
 
-areapoligono(poligono= input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo \n'))
+areapoligono(poligono= input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo \n')) #le pedimos por consola al usuario que ingrese alguno de los tres polígonos
