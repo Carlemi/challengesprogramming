@@ -11,6 +11,7 @@ def areapoligono(poligono):
     baserec = 2
     alturarec = 5
     arearec = baserec * alturarec
+    # utilizamos el condicional para saber que tipo de polígono selecciona el usuario
     if poligono == 'cuadrado':
         lado **= 2
         print(f'El área de este polígono es: {lado}')
