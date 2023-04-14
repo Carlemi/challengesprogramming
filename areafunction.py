@@ -3,7 +3,7 @@
 
 ## definimos la función
 def areapoligono(poligono):
-    poligono = input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo')
+    #poligono = input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo')
     lado = 2
     basetri = 3
     alturatri = 4
@@ -12,7 +12,7 @@ def areapoligono(poligono):
     alturarec = 5
     arearec = baserec * alturarec
     if poligono == 'cuadrado':
-        lado ^= 2
+        lado **= 2
         print(f'El área de este polígono es: {lado}')
     elif poligono == 'triángulo':
         print(f'El área de este polígono es: {areatri}')
@@ -21,4 +21,4 @@ def areapoligono(poligono):
 
     return poligono
 
-areapoligono()
+areapoligono(poligono= input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo \n'))
