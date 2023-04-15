@@ -21,5 +21,5 @@ def areapoligono(poligono):
         print(f'El área de este polígono es: {arearec}')
 
     return poligono
-
+    
 areapoligono(poligono= input('Por favor introduzca un polígono entre - cuadrado \n- triángulo\n- rectángulo \n')) #le pedimos por consola al usuario que ingrese alguno de los tres polígonos
