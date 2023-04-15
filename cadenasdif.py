@@ -6,5 +6,6 @@ def cadenas(cadena_1 = 'hola', cadena_2 = 'vete'):
     salida_2 = cadena_2
     print(salida_1, ' ', salida_2)
 
-cadenas('aja', 'no sé')
+cadenas('hola','vete')
 
+    
